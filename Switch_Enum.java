@@ -1,4 +1,4 @@
-package mypack;
+/*package mypack;
 
 public class Switch_Enum {
 
@@ -32,4 +32,4 @@ public class Switch_Enum {
 enum Fruit {
 	   Apple,Banana,Guava,WaterMelon;
 	}
-	
+	*/

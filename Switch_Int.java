@@ -11,8 +11,16 @@ switch(FavouriteNo)
 {
 case 1:
 	LuckyColor="Red";
+	break;
+case 2: 
+	LuckyColor="Green";
+	break;
+	default:
+	LuckyColor="Invalid Color";	
+	break;
 	
 }
+System.out.println(LuckyColor);
 	}
 
 }
