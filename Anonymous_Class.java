@@ -1,4 +1,4 @@
-/*package mypack;
+package mypack;
 
 interface Printable
 {
@@ -10,13 +10,8 @@ class Document
 
 public void display(Printable ref)
 {
-	ref=new Printable() {
-		@Override
-		public void print() {
-			System.out.println("In Document");
-			
-		}
-	};
+	ref.print();
+	//System.out.println("In Document");
 }
 	
 }
@@ -27,13 +22,8 @@ class Image
 
 public void display(Printable ref)
 {
-	ref=new Printable() {
-		@Override
-		public void print() {
-			System.out.println("In Image");
-			
-		}
-	};
+	ref.print();
+	//System.out.println("In Image");
 }
 	
 }
@@ -42,12 +32,28 @@ public class Anonymous_Class {
 	public static void main(String[] args)
 	{
 		Document  doc=new Document();
-		Printable ref=null;
-		doc.display(ref);
+		doc.display(new Printable() {
+			
+			@Override
+			public void print() {
+				System.out.println("Printing Document");
+				
+			}
+		});
 		
+		
+		Image img=new Image();
+		img.display(new Printable() {
+			
+			@Override
+			public void print() {
+
+System.out.println("Printing Image");
+				
+			}
+		});
 
 		
 	}
 
 }
-*/
