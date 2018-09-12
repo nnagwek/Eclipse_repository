@@ -1,7 +1,9 @@
+
 /* 
  * *This program is to check if the inputted no is  palindrome or not
  */
 /*
+// Assignment 1
 package mypack;
 
 import java.util.*;   
