@@ -1,4 +1,5 @@
-/*package mypack;
+// Assignment 12 
+package mypack;
 
 import java.io.File;
 import java.util.Scanner;
