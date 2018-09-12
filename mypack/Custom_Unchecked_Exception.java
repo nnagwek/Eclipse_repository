@@ -1,4 +1,5 @@
-/*package mypack;
+// Assignment 8 b
+package mypack;
 
 public class Custom_Unchecked_Exception {
 
@@ -43,4 +44,4 @@ public class Custom_Unchecked_Exception {
 	 {
 		 super();
 	 }
-}*/
+}
