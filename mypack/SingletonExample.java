@@ -1,4 +1,4 @@
-
+//Assignment 4 Singleton
 /*
 
 package mypack;
