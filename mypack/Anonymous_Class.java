@@ -1,11 +1,19 @@
 package mypack;
 
+
+/*
+ * Program to Demonstrate behavior parametrization using anonymous classes
+ * 
+ */
 interface Printable
 {
 	void print();
 }
 
 
+/*
+ * Document with display method and display method accepting Printable as an argument
+ */
 class Document
 {
 
@@ -17,7 +25,9 @@ public void display(Printable ref)
 	
 }
 
-
+/*
+ *  Image with display method and display method accepting Printable as an argument
+ */
 class Image
 {
 
