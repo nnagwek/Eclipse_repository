@@ -1,3 +1,4 @@
+//Assignment 6 Enum
 package mypack;
 
 import java.util.HashMap;
