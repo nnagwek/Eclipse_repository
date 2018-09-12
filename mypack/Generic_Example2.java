@@ -1,4 +1,5 @@
-/*package mypack;
+//Assignment  7 b
+package mypack;
 
 public class Generic_Example2 {
 
@@ -58,4 +59,4 @@ private V Values;
 	
 	
 	
-}*/
+}
