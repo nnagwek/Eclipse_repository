@@ -1,5 +1,5 @@
-
-/*package mypack;
+// Assignment 2 polymorphism
+package mypack;
 
 interface Vehicle
 {
@@ -48,7 +48,7 @@ public class Polymorphism
 
 		}
 }
-*/
+
 
 
 
