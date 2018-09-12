@@ -1,6 +1,6 @@
 /*package mypack;
 
-
+//Assignment 2  Inheritance Nonstatic
 abstract class Vehicle
 {
 private String name;
