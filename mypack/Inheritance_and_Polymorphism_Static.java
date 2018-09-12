@@ -1,6 +1,6 @@
 /*
 package mypack;
-
+// Assignment 2 Inheritance & Polymorphism Static
 public class Inheritance_and_Polymorphism_Static 
 {
 	 public static void main(String args[ ]) 
