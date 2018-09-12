@@ -5,6 +5,7 @@ interface Printable
 	void print();
 }
 
+
 class Document
 {
 
@@ -31,6 +32,7 @@ public class Anonymous_Class {
 
 	public static void main(String[] args)
 	{
+		//Anonymous Class having implementation of display method of Document
 		Document  doc=new Document();
 		doc.display(new Printable() {
 			
@@ -41,7 +43,7 @@ public class Anonymous_Class {
 			}
 		});
 		
-		
+		//Anonymous Class having implementation of display method of Image
 		Image img=new Image();
 		img.display(new Printable() {
 			
