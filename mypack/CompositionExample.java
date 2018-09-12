@@ -1,7 +1,7 @@
 /*
  * JAVA program demonstrating  composition by creating Employee and Address class
  */
-
+// Assignment 3 Composition Example
 package mypack;
 
 public class CompositionExample {
