@@ -1,4 +1,5 @@
-/*package mypack;
+// Assignment 10 a
+package mypack;
 
 public class Switch_Int {
 
@@ -29,4 +30,3 @@ System.out.println(LuckyColor);
 
 
 
-*/
