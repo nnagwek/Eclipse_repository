@@ -1,4 +1,5 @@
-/*package mypack;
+// Assignment 8 a
+package mypack;
 
 import java.util.Scanner;
 
@@ -49,4 +50,3 @@ class MyCustomCheckedException extends Exception
 }
 
 
-*/
