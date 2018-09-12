@@ -1,4 +1,6 @@
-
+/*
+ * JAVA program demonstrating  composition by creating Employee and Address class
+ */
 
 package mypack;
 
@@ -18,6 +20,12 @@ public class CompositionExample {
 
 }
 
+/*
+ * Address  class  is immutable
+ * 1.  No Setter Methods 
+ * 2.final and private fields
+ * 
+ */
 
 final class Address 
 { 
@@ -49,7 +57,11 @@ return id;
 
 } 
 
-
+/*
+ * Employee Class is also Immutable 
+ * Here Composition is demonstrated as 
+ * Employee class has an instance of Address
+ */
 
 
 final class Employee { 
